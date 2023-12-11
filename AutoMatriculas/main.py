@@ -5,10 +5,11 @@ import cv2
 
 def main():
     detector = pld()
-    imagen_resultado = detector.detectar_placa("matricula2.jpg")
+    imagen_resultado = detector.detectar_placa("matricula8.jpg")
 
     if imagen_resultado is not None:
         cv2.imshow('Imagen con Placa Detectada', imagen_resultado)
+        #cv2.imshow('Placa', placa_region)
         cv2.waitKey(0)
         cv2.destroyAllWindows()
 
