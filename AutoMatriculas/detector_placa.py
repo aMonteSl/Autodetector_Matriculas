@@ -38,7 +38,8 @@ class PlacaDetector:
         procesada = self.preprocesar_imagen(imagen)
         gris = cv2.cvtColor(procesada, cv2.COLOR_BGR2GRAY)
 
-        _, umbral = cv2.threshold(gris, 150, 255, cv2.THRESH_BINARY)
+        # Aplicar el umbral de Otsu para segmentación
+        _, umbral = cv2.threshold(gris, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 
         contornos, _ = cv2.findContours(umbral, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
