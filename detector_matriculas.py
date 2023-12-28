@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-import skimage
+# import skimage
 
 class LPR:
     def __init__(self, min_area=5000, max_area=50000, min_ratio=3.5, max_ratio=4.95): #Min ratio 4.05  #Imagenes de lejos min_area=5000, max_area=50000
@@ -24,9 +24,9 @@ class LPR:
         # Aplica umbral binario inverso a la imagen
         return cv2.threshold(img, 170, 255, cv2.THRESH_BINARY_INV)[1]
 
-    def apply_adaptive_threshold(self, img):
+    '''def apply_adaptive_threshold(self, img):
         # Aplica umbral adaptativo a la imagen
-        return cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY_INV, 7, 13)
+        return cv2.adaptiveThreshold(img, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY_INV, 7, 13)'''
 
     def find_contours(self, img):
         # Encuentra contornos en la imagen
@@ -73,7 +73,7 @@ class LPR:
         return img[y:y+h, x:x+w]
     
 
-    def open_and_close(self, img):
+    '''def open_and_close(self, img):
         # Definir el kernel para las operaciones de apertura y cierre (3x3)
         kernel = np.ones((3, 3), np.uint8)
 
@@ -84,16 +84,16 @@ class LPR:
         closed = cv2.morphologyEx(opened, cv2.MORPH_CLOSE, kernel)
 
         # Devolver la imagen después de las operaciones de apertura y cierre
-        return closed
+        return closed'''
 
 
-    def clear_border(self, img):
+    '''def clear_border(self, img):
         # Elimina los bordes de la imagen
-        return skimage.segmentation.clear_border(img)
+        return skimage.segmentation.clear_border(img)'''
 
-    def invert_image(self, img):
+    '''def invert_image(self, img):
         # Invierte los colores de la imagen
-        return cv2.bitwise_not(img)
+        return cv2.bitwise_not(img)'''
     
     def draw_contours(self, img, contours):
         # Dibuja los contornos en la imagen original
@@ -119,18 +119,18 @@ class LPR:
             if len(candidates) > 1:
                 license = self.get_lowest_candidate(candidates)
 
-            cropped = self.crop_license_plate(gray, license)
-            thresh_cropped = self.apply_adaptive_threshold(cropped)
+            cropped = self.crop_license_plate(img, license)
+            #thresh_cropped = self.apply_adaptive_threshold(cropped)
             
-            open_close = self.open_and_close(thresh_cropped)
+            #open_close = self.open_and_close(thresh_cropped)
 
             # Elimina los bordes de la imagen resultante
-            clear_border = self.clear_border(open_close)
+            #clear_border = self.clear_border(open_close)
 
             # Invierte los colores de la imagen final
-            final = self.invert_image(clear_border)
+            #final = self.invert_image(clear_border)
 
-            return final
+            return cropped
         else:
             return "No license plate found"
 
