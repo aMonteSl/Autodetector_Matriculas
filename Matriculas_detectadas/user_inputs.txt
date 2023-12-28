@@ -1,1 +1,1 @@
-User choice: 7, Selected image: 7_Coche.jpg
+User choice: 2, Selected image: 2_Coche.jpg
