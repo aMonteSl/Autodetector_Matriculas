@@ -1,2 +1,0 @@
-User choice: 5, Selected image: 5_Coche.jpg. Path: C:\Users\adria\OneDrive\Escritorio\AutoMatriculas\DetectedPlates\plate5.jpg
-User choice: 10, Selected image: 10_Coche.jpg. Path: C:\Users\adria\OneDrive\Escritorio\AutoMatriculas\DetectedPlates\plate10.jpg
