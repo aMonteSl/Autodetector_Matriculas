@@ -14,7 +14,7 @@ class LicensePlateReader:
             output_file (str): File to store license plate text results.
         """
         # Configure the path to the Tesseract OCR executable (adjust according to your installation)
-        pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+        # pytesseract.pytesseract.tesseract_cmd = '/home/carlosnj/.local/lib/python3.10/site-packages'
 
         # Directory for processed images
         self.detected_directory = detected_directory
