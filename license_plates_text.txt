@@ -1,2 +1,0 @@
-Image Path: plate5.jpg, Plate Text: 0411KMT
-Image Path: plate10.jpg, Plate Text: 2801NLE
