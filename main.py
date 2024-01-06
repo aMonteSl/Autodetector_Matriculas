@@ -43,4 +43,3 @@ if __name__ == "__main__":
     # Instantiate LicensePlateReader to read and print license plates
     plate_reader = LicensePlateReader()
     plate_reader.read_license_plates()
-    
