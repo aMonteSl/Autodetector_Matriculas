@@ -29,8 +29,11 @@ def next_step():
     print_slashes()
     print(MSG1, end='')
     print_slashes()
-    input("\nPress Enter to continue...")
-    clear_terminal()
+    try:
+        input("\nPress Enter to continue...")
+    except KeyboardInterrupt:
+        print("\nOperation interrupted. Exiting.")
+        clear_terminal()
 
 if __name__ == "__main__":
     # Instantiate PlateSegmentation to segment license plates

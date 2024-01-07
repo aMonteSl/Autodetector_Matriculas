@@ -3,3 +3,4 @@ pytesseract
 Pillow
 numpy
 scikit-image
+
