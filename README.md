@@ -54,7 +54,28 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 ### ¡Pruebalo tu mismo! (Windows)
 
-Escribe aqui los pasos adrian.
+
+1. **Paso 1:** Clona el repositorio en tu máquina local.
+
+    ```bash
+    git clone https://github.com/aMonteSl/Autodetector_Matriculas.git
+    ```
+
+2. **Paso 2:** Navega al directorio del proyecto.
+
+    ```bash
+    cd Autodetector_Matriculas
+    ```
+
+3. **Paso 3:** Instala las dependencias[^1].
+
+    ```bash
+    pip install -r requirements.txt 
+    ```
+
+4. **Paso 4:** Instalamos el modelo entrenado y mas dependencias.
+
+    [Texto del Enlace](https://www.youtube.com/watch?v=OutxRdkNOK4&t=471s&ab_channel=TruzzBlogg)
 
 > [!WARNING]
 > Esta instalación no es trivial y pueden surgir problemas en el camino. Si tienes alguno, por favor, contacta con nosotros por correo o teléfono indicando el **sistema operativo** que estas usando: 
