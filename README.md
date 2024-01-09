@@ -123,7 +123,7 @@ Este programa en Python ([`character_decider.py`](https://github.com/aMonteSl/Au
 | read_license_plates  | Lee placas de vehículos a partir de imágenes procesadas y escribe los resultados en un archivo. Verifica si el directorio especificado existe, obtiene una lista de archivos ordenados numéricamente en el directorio, y procesa cada imagen para extraer el texto de la placa. Imprime los resultados en la terminal y escribe los resultados en el archivo de salida. |
 | read_text_from_image | Lee el texto de una imagen utilizando Tesseract OCR. Abre la imagen especificada, utiliza pytesseract para extraer el texto de la imagen y filtra los caracteres no deseados, devolviendo el texto filtrado.                                                                                                                                                            |
 
-### Extra:
+### 3. Extra:
 Además, en el proceso de ejecución del programa crearemos distintos `.txt` donde podremos ir viendo lo que ocurre internamente en el programa, a continuación un ejemplo de cada uno:
 
 #### 1. [`user_inputs.txt`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/DetectedPlates/user_inputs.txt): 
