@@ -73,11 +73,8 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
     pip install -r requirements.txt 
     ```
 
-4. **Paso 4:** Instalamos el modelo entrenado y mas dependencias.
+4. **Paso 4:** Instalamos el modelo entrenado y mas dependencias (El video explica cómo crear un entorno virtual. Aunque opcional, si decides hacerlo, realiza el paso 3 dentro del entorno virtual.).
 
-    ```bash
-    En el video se muestran cosas no necesarias, como crear un entorno virtual.
-    ```
     [Tutorial instalación pytesseract](https://www.youtube.com/watch?v=OutxRdkNOK4&t=471s&ab_channel=TruzzBlogg)
     
 
