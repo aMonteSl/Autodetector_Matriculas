@@ -1,1 +1,1 @@
-User choice: 1, Selected image: 1_Coche.jpg. Path: /home/carlosnj/Desktop/Github/Autodetector_Matriculas/DetectedPlates/plate1.jpg
+User choice: 1, Selected image: 1_Coche.jpg. Path: /home/carlosnj/Github/Autodetector_Matriculas/DetectedPlates/plate1.jpg

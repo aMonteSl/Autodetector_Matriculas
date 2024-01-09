@@ -1,2 +1,3 @@
 ERROR:root:Error while processing images: 'NoneType' object has no attribute 'group'
 ERROR:root:Error while processing images: 'NoneType' object has no attribute 'group'
+ERROR:root:Error processing the image DetectedPlates/plate2.jpg: [Errno 13] Permission denied: '/home/carlosnj/.local/lib/python3.10/site-packages'
