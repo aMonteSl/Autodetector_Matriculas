@@ -126,19 +126,19 @@ Este programa en Python ([`character_decider.py`](https://github.com/aMonteSl/Au
 ### Extra:
 Además, en el proceso de ejecución del programa crearemos distintos `.txt` donde podremos ir viendo lo que ocurre internamente en el programa, a continuación un ejemplo de cada uno:
 
-#### 1. User_inputs: 
+#### 1. [`user_inputs.txt`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/DetectedPlates/user_inputs.txt): 
 Este fichero contendra la información de que imagenes a seleccionado el usuario, el nombre del fichero imagen que ha seleccionado y el directorio donde se encuentra la imagen, ejemplo:
 
     User choice: 1, Selected image: 1_Coche.jpg. Path: C:\Users\adrian\Escritorio\AutoMatriculas\DetectedPlates\plate1.jpg
     User choice: 8, Selected image: 8_Coche.jpg. Path: C:\Users\adrian\Escritorio\AutoMatriculas\DetectedPlates\plate8.jpg
     
-#### 2. License_plates_text: 
+#### 2. [`license_plates_text.txt`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/license_plates_text.txt): 
 En este fichero guardaremos la información respecto el nombre de la imagen que contiene la matricula (es decir la imagen generada en la primera fase) y el texto que se ha detectado en dicha imagen, ejemplo:
 
     Image Path: plate1.jpg, Plate Text: B2228HM
     Image Path: plate8.jpg, Plate Text: 0007LLL
 
-#### 3. License_plates_reader: 
+#### 3. [`license_plates_reader.log`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/license_plate_reader.log): 
 En este fichero simplemente se guardan errores que ocurran en la segunda fase, como por ejemplo que no se haya podido detectar texto en la imagen o errores similaresm, ejemplo:
 
     ERROR:root:Error while processing images: 'NoneType' object has no attribute 'group'
