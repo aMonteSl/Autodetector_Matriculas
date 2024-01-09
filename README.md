@@ -9,7 +9,7 @@ Este repositorio contiene el proyecto final desarrollado para la asignatura de  
 
 Para la resolución del problema se han puesto en práctica los conceptos vistos en el tema 2 (tratamiento de imágenes), y la implementación de un modelo entrenado (esencialmente un decisor) que nos ayuda a identificar los carácteres en la matricula. 
 
-## 2. Instalación y ejecución
+## 2. Instalación y ejecución ⚙️
 
 ### ¡Pruebalo tu mismo! (Ubuntu)
 
