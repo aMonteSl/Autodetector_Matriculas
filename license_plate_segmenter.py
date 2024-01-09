@@ -127,6 +127,7 @@ class PlateSegmentation:
             self.process_image(choice, selected_image, image_path)
             input("Press Enter to continue...")
 
+# Example usage:
 if __name__ == "__main__":
     app = PlateSegmentation()
     app.segmentation_of_the_plate()

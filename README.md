@@ -71,10 +71,52 @@ Escribe aqui los pasos adrian.
 Este programa emplea avanzadas técnicas de procesamiento de imágenes para la detección de matrículas en una imagen. El proceso se divide en dos fases fundamentales:
 
 ### 1. Segmentación de Matrículas:
-Mediante el empleo de técnicas de procesamiento de imágenes, podremos reconocer la matrícula de un vehículo en una imagen. Posteriormente, almacenaremos dicha matrícula como otra imagen independiente, la cual será utilizada en la siguiente fase.
+Mediante el empleo de técnicas de procesamiento de imágenes, podremos reconocer la matrícula de un vehículo en una imagen. Posteriormente, almacenaremos dicha matrícula como otra imagen independiente, la cual será utilizada en la siguiente fase. 
 
 ### 2. Reconocimento de Texto:
-En esta etapa, empleamos una biblioteca externa denominada PYTESSERACT para extraer el texto de la matrícula. Esta biblioteca incluye un modelo preentrenado específicamente para esta tarea. Más adelante, proporcionaremos instrucciones detalladas sobre la instalación de la biblioteca y explicaremos cómo realiza la detección del texto.
+En esta etapa, empleamos una biblioteca externa denominada PYTESSERACT para extraer el texto de la matrícula. Esta biblioteca incluye un modelo preentrenado específicamente para esta tarea. Más adelante, proporcionaremos instrucciones detalladas sobre la instalación de la biblioteca y explicaremos cómo realiza la detección del texto. 
+
+Los archivos usados para esta tarea son: [`license_plate_detector.py`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/license_plate_detector.py) y [`license_plate_segmenter.py`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/license_plate_segmenter.py). Los códigos estan bien documentados para su correcta compresión, aun así, vamos a hacer un pequeño resumen de su funcionalidad básica.
+
+#### `license_plate_detector.py`
+
+Este script implementa un lector de placas de matrícula que utiliza operaciones de procesamiento de imágenes para detectar y extraer la región de la placa de matrícula de una imagen dada. Aquí está un resumen de las principales funciones y su funcionalidad:
+
+|          Función         |                                                                                                   Descripción                                                                                                  |
+|:------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| grayscale                | Convierte la imagen a escala de grises y aplica desenfoque.                                                                                                                                                    |
+| apply_threshold          | Aplica umbral binario inverso a la imagen.                                                                                                                                                                     |
+| apply_adaptive_threshold | Aplica umbral adaptativo a la imagen.                                                                                                                                                                          |
+| find_contours            | Encuentra contornos en la imagen.                                                                                                                                                                              |
+| filter_candidates        | Filtra los contornos candidatos basados en área y relación de aspecto.                                                                                                                                         |
+| get_lowest_candidate     | Obtiene el contorno candidato con la coordenada Y más baja.                                                                                                                                                    |
+| crop_license_plate       | Recorta la región de la placa de matrícula de la imagen original con un margen expandido.                                                                                                                      |
+| close_and_open           | Aplica operaciones morfológicas de cierre y apertura a la imagen.                                                                                                                                              |
+| clear_border             | Limpia el borde de la imagen utilizando skimage.segmentation.clear_border.                                                                                                                                     |
+| invert_image             | Invierte los colores de la imagen.                                                                                                                                                                             |
+| draw_contours            | Dibuja contornos en la imagen original.                                                                                                                                                                        |
+| read_license             | Método principal para leer la placa de matrícula: procesa la imagen, detecta contornos, filtra candidatos y devuelve la imagen procesada final o un mensaje de error si no se encuentra la placa de matrícula. |
+
+El script se puede utilizar proporcionando una imagen como entrada y llamar a la función `read_license` del objeto `LicensePlateReader` para procesar la imagen y mostrar la región de la placa de matrícula detectada o un mensaje de error si no se encuentra ninguna placa.
+
+#### `license_plate_segmenter.py`
+
+El script PlateSegmentation realiza la segmentación de placas de matrícula en imágenes de vehículos. Aquí está un resumen de sus principales funciones y su funcionalidad:
+
+|          Función          |                                                                                                   Descripción                                                                                                  |
+|:-------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| __init__                  | Inicializa el objeto PlateSegmentation con constantes y una instancia de LicensePlateReader. Borra y crea un directorio para almacenar las placas detectadas.                                                  |
+| clear_terminal            | Limpia la pantalla del terminal.                                                                                                                                                                               |
+| load_images               | Carga y muestra imágenes disponibles para procesamiento, solicitando al usuario que haga una selección. Retorna el número de la selección y el nombre del archivo de imagen seleccionado.                      |
+| process_image             | Procesa la imagen seleccionada, muestra el resultado y guarda la imagen procesada.                                                                                                                             |
+| display_and_save_result   | Muestra la imagen procesada, la guarda y registra las entradas del usuario.                                                                                                                                    |
+| segmentation_of_the_plate | Método principal para la segmentación de placas. Carga imágenes, procesa cada imagen y permite al usuario continuar o salir.                                                                                   |
+| crop_license_plate        | Recorta la región de la placa de matrícula de la imagen original con un margen expandido.                                                                                                                      |
+| close_and_open            | Aplica operaciones morfológicas de cierre y apertura a la imagen.                                                                                                                                              |
+| clear_border              | Limpia el borde de la imagen utilizando skimage.segmentation.clear_border.                                                                                                                                     |
+| invert_image              | Invierte los colores de la imagen.                                                                                                                                                                             |
+| draw_contours             | Dibuja contornos en la imagen original.                                                                                                                                                                        |
+| read_license              | Método principal para leer la placa de matrícula: procesa la imagen, detecta contornos, filtra candidatos y devuelve la imagen procesada final o un mensaje de error si no se encuentra la placa de matrícula. |
 
 ### Extra:
 Además, en el proceso de ejecución del programa crearemos distintos `.txt` donde podremos ir viendo lo que ocurre internamente en el programa, a continuación un ejemplo de cada uno:
