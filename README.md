@@ -105,7 +105,7 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 ### ¡Pruebalo tu mismo! (Mac)
 
-- Seguir los mismos pasos que en Windows, y en la instalación del modelo entrenado, seguir el video de Windows hasta la parte en donde ya diferencia la instalación entre sistemas operativos y seguir el manual de usuario de pytesseract, en caso de Mac no hemos encontrado videos ni alguna explicación sencilla para esta parte, además qeu no lo hemos podido probar en este sistema operativo
+- Para la instalación en Mac, simplemente sigue los pasos similares a los de Windows. En cuanto a la instalación del modelo entrenado, consulta el video de Windows hasta la sección donde distingue la instalación entre sistemas operativos. Posteriormente, sigue las instrucciones proporcionadas en el manual de usuario de Pytesseract. En el caso de Mac, no hemos encontrado vídeos ni explicaciones sencillas específicas para esta etapa, y no hemos podido realizar pruebas en este sistema operativo.
 
 > [!WARNING]
 > Esta instalación no es trivial y pueden surgir problemas en el camino. Si tienes alguno, por favor, contacta con nosotros por correo o teléfono indicando el **sistema operativo** que estas usando:
