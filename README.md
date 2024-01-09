@@ -76,6 +76,7 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 4. **Paso 4:** Instalamos el modelo entrenado y mas dependencias.
 
 - El video explica cómo crear un entorno virtual. Aunque es opcional, si decides hacerlo, realiza el paso 3 dentro del entorno virtual.
+- En el requitements.txt ya esta introducido el comando: pip install pytesseract
 
     [Tutorial instalación pytesseract](https://www.youtube.com/watch?v=OutxRdkNOK4&t=471s&ab_channel=TruzzBlogg)
 
