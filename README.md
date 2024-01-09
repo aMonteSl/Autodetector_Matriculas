@@ -50,6 +50,12 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 ![](Images/tesseract_path.png)
 
+7. **Paso 7:** Ejecución del programa.
+
+   ```bash
+    python .\main.py 
+    ```
+
 [^1]: en caso de no tener instalado pip --> `sudo apt install python3-pip`.
 
 ### ¡Pruebalo tu mismo! (Windows)
