@@ -60,7 +60,6 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 ### ¡Pruebalo tu mismo! (Windows)
 
-
 1. **Paso 1:** Clona el repositorio en tu máquina local.
 
     ```bash
@@ -104,8 +103,13 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
     python .\main.py 
     ```
 
+  ### ¡Pruebalo tu mismo! (Mac)
+
+  -Tu eres tonto o que te pasa, que coño haces usando Mac si te dedicas a programar, anda respetate un poquito a ti mismo he instalate Ubuntu o almenos Windows para que se te pueda respetar como programador 
+
 > [!WARNING]
 > Esta instalación no es trivial y pueden surgir problemas en el camino. Si tienes alguno, por favor, contacta con nosotros por correo o teléfono indicando el **sistema operativo** que estas usando:
+> Preferentemente contactar a Carlos Nebril para problemas con la instalacion en Ubuntu y para Windows recomendamos contactar con Adrián Montes, ya que a la hora de instalar el modelo entrenado cada uno lo hemos hecho en distintos sistemas operativos y está más familiarizado con los errores que puedan surgir
 > - c.nebril.2020@alumnos.urjc.es / a.montesl.2020@alumnos.urjc.es
 > - 654 63 12 07 / 637 68 23 61
 
