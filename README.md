@@ -59,7 +59,7 @@ Si prefieres instrucciones escritas, sigue los pasos a continuación:
 
 - Abrimos en nuestro editor favorito el programa `character_decider.py`. Pegamos en la línea 17 la salida del comando anterior. En mi caso quedaría algo así:
 
-![](Images/tesseract_)
+![](Images/tesseract_path.png)
 
 [^1]: en caso de no tener instalado pip --> `sudo apt install python3-pip`.
 
