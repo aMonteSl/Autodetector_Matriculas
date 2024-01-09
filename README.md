@@ -75,7 +75,7 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 4. **Paso 4:** Instalamos el modelo entrenado y mas dependencias.
 
-- El video explica cómo crear un entorno virtual. Aunque es opcional, si decides hacerlo, realiza el paso 3 dentro del entorno virtual.
+- El video explica cómo crear un entorno virtual. No hacer el entorno virtual, genera conflicto entre librerias internas del sistema que son necesarias.
 - En el requitements.txt ya esta introducido el comando: pip install pytesseract
 
     [Tutorial instalación pytesseract](https://www.youtube.com/watch?v=OutxRdkNOK4&t=471s&ab_channel=TruzzBlogg)
@@ -89,6 +89,14 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 - Abrimos en nuestro editor favorito el programa `character_decider.py`. Pegamos en la línea 17 la ruta que hemos copiado en el anterior paso. Quedaría algo así:
 
 ![](Images/tesseract_path.png)
+
+7. **Paso 7:** Ejecución del programa.
+   
+- Desarrollado en Windows usando python3.12 como interprete
+
+   ```bash
+    python .\main.py 
+    ```
 
 > [!WARNING]
 > Esta instalación no es trivial y pueden surgir problemas en el camino. Si tienes alguno, por favor, contacta con nosotros por correo o teléfono indicando el **sistema operativo** que estas usando:
