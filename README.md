@@ -78,7 +78,7 @@ En esta etapa, empleamos una biblioteca externa denominada PYTESSERACT para extr
 
 Los archivos usados para esta tarea son: [`license_plate_detector.py`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/license_plate_detector.py) y [`license_plate_segmenter.py`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/license_plate_segmenter.py). Los códigos estan bien documentados para su correcta compresión, aun así, vamos a hacer un pequeño resumen de su funcionalidad básica.
 
-#### `license_plate_detector.py`
+#### [`license_plate_detector.py`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/license_plate_detector.py)
 
 Este script implementa un lector de placas de matrícula que utiliza operaciones de procesamiento de imágenes para detectar y extraer la región de la placa de matrícula de una imagen dada. Aquí está un resumen de las principales funciones y su funcionalidad:
 
@@ -99,7 +99,7 @@ Este script implementa un lector de placas de matrícula que utiliza operaciones
 
 El script se puede utilizar proporcionando una imagen como entrada y llamar a la función `read_license` del objeto `LicensePlateReader` para procesar la imagen y mostrar la región de la placa de matrícula detectada o un mensaje de error si no se encuentra ninguna placa.
 
-#### `license_plate_segmenter.py`
+#### [`license_plate_segmenter.py`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/license_plate_segmenter.py)
 
 El script PlateSegmentation realiza la segmentación de placas de matrícula en imágenes de vehículos. Aquí está un resumen de sus principales funciones y su funcionalidad:
 
