@@ -61,7 +61,7 @@ Antes de indagar en el proyecto a fondo, os presentamos una **demonstración** 
 Escribe aqui los pasos adrian.
 
 > [!WARNING]
-> Esta instalación no es trivial y pueden surgir problemas en el camino. Si tienes alguno, por favor contacta con nosotros por correo o teléfono: 
+> Esta instalación no es trivial y pueden surgir problemas en el camino. Si tienes alguno, por favor, contacta con nosotros por correo o teléfono indicando el sistema operativo que estas usando: 
 > - c.nebril.2020@alumnos.urjc.es
 > - 654631207
 
