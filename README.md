@@ -9,11 +9,7 @@ Este repositorio contiene el proyecto final desarrollado para la asignatura de  
 
 Para la resolución del problema se han puesto en práctica los conceptos vistos en el tema 2 (tratamiento de imágenes), y la implementación de un modelo entrenado (esencialmente un decisor) que nos ayuda a identificar los carácteres en la matricula. 
 
-## 2. Demo e Instalación
-
-Antes de indagar en el proyecto a fondo, os presentamos una **demonstración** del programa y una serie de instrucciones por si quereis **probar** la implementación vosotros mismos.
-
-- [**Haz click aquí para ver el video demonstración**](enlace-al-video)
+## 2. Instalación y ejecución
 
 ### ¡Pruebalo tu mismo! (Ubuntu)
 
@@ -73,9 +69,6 @@ Este programa emplea avanzadas técnicas de procesamiento de imágenes para la d
 ### 1. Segmentación de Matrículas:
 Mediante el empleo de técnicas de procesamiento de imágenes, podremos reconocer la matrícula de un vehículo en una imagen. Posteriormente, almacenaremos dicha matrícula como otra imagen independiente, la cual será utilizada en la siguiente fase. 
 
-### 2. Reconocimento de Texto:
-En esta etapa, empleamos una biblioteca externa denominada PYTESSERACT para extraer el texto de la matrícula. Esta biblioteca incluye un modelo preentrenado específicamente para esta tarea. Más adelante, proporcionaremos instrucciones detalladas sobre la instalación de la biblioteca y explicaremos cómo realiza la detección del texto. 
-
 Los archivos usados para esta tarea son: [`license_plate_detector.py`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/license_plate_detector.py) y [`license_plate_segmenter.py`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/license_plate_segmenter.py). Los códigos estan bien documentados para su correcta compresión, aun así, vamos a hacer un pequeño resumen de su funcionalidad básica.
 
 #### [`license_plate_detector.py`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/license_plate_detector.py)
@@ -118,6 +111,18 @@ El script PlateSegmentation realiza la segmentación de placas de matrícula en 
 | draw_contours             | Dibuja contornos en la imagen original.                                                                                                                                                                        |
 | read_license              | Método principal para leer la placa de matrícula: procesa la imagen, detecta contornos, filtra candidatos y devuelve la imagen procesada final o un mensaje de error si no se encuentra la placa de matrícula. |
 
+### 2. Reconocimento de Texto:
+Este programa en Python ([`character_decider.py`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/character_decider.py)) es un lector de placas que utiliza la biblioteca Tesseract OCR para procesar imágenes y extraer texto de placas de vehículos. Se trata de un modelo preentrenado especificamente para eso donde, internamente, esta implementado los conceptos del tema 3: decisores. 
+
+#### 1. [`character_decider.py`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/character_decider.py)
+
+
+|        Función       |                                                                                                                                                                              Funcionalidad                                                                                                                                                                              |
+|:--------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| __init__             | Inicializa el objeto LicensePlateReader. Configura el directorio para imágenes procesadas y el archivo de salida para almacenar los resultados de texto de las placas. También configura la ruta al ejecutable de Tesseract OCR y la configuración de registro (logging).                                                                                               |
+| read_license_plates  | Lee placas de vehículos a partir de imágenes procesadas y escribe los resultados en un archivo. Verifica si el directorio especificado existe, obtiene una lista de archivos ordenados numéricamente en el directorio, y procesa cada imagen para extraer el texto de la placa. Imprime los resultados en la terminal y escribe los resultados en el archivo de salida. |
+| read_text_from_image | Lee el texto de una imagen utilizando Tesseract OCR. Abre la imagen especificada, utiliza pytesseract para extraer el texto de la imagen y filtra los caracteres no deseados, devolviendo el texto filtrado.                                                                                                                                                            |
+
 ### Extra:
 Además, en el proceso de ejecución del programa crearemos distintos `.txt` donde podremos ir viendo lo que ocurre internamente en el programa, a continuación un ejemplo de cada uno:
 
@@ -132,13 +137,18 @@ En este fichero guardaremos la información respecto el nombre de la imagen que 
 
     Image Path: plate1.jpg, Plate Text: B2228HM
     Image Path: plate8.jpg, Plate Text: 0007LLL
-    
+
 #### 3. License_plates_reader: 
 En este fichero simplemente se guardan errores que ocurran en la segunda fase, como por ejemplo que no se haya podido detectar texto en la imagen o errores similaresm, ejemplo:
 
     ERROR:root:Error while processing images: 'NoneType' object has no attribute 'group'
 
 ## 4. Resultados 📊
+
+
+
+- [**Haz click aquí para ver el video demonstración**](enlace-al-video)
+
 
 Los resultados obtenidos durante la implementación incluyen [descripción de los resultados más relevantes o hallazgos importantes].
 
