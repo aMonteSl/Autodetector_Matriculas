@@ -105,7 +105,7 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
   ### ¡Pruebalo tu mismo! (Mac)
 
-  -Tu eres tonto o que te pasa, que coño haces usando Mac si te dedicas a programar, anda respetate un poquito a ti mismo he instalate Ubuntu o almenos Windows para que se te pueda respetar como programador 
+  -Seguir los mismos pasos que en Windows, y en la instalación del modelo entrenado, seguir el video de Windows hasta la parte en donde ya diferencia la instalación entre sistemas operativos y seguir el manual de usuario de pytesseract, en caso de Mac no hemos encontrado videos ni alguna explicación sencilla para esta parte, además qeu no lo hemos podido probar en este sistema operativo
 
 > [!WARNING]
 > Esta instalación no es trivial y pueden surgir problemas en el camino. Si tienes alguno, por favor, contacta con nosotros por correo o teléfono indicando el **sistema operativo** que estas usando:
