@@ -76,8 +76,10 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 4. **Paso 4:** Instalamos el modelo entrenado y mas dependencias.
 
     ```bash
-    [Tutorial instalación pytesseract](https://www.youtube.com/watch?v=OutxRdkNOK4&t=471s&ab_channel=TruzzBlogg)
+    En el video se muestran cosas no necesarias, como crear un entorno virtual.
     ```
+    [Tutorial instalación pytesseract](https://www.youtube.com/watch?v=OutxRdkNOK4&t=471s&ab_channel=TruzzBlogg)
+    
 
 > [!WARNING]
 > Esta instalación no es trivial y pueden surgir problemas en el camino. Si tienes alguno, por favor, contacta con nosotros por correo o teléfono indicando el **sistema operativo** que estas usando: 
