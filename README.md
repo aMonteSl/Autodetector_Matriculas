@@ -64,7 +64,7 @@ Si prefieres instrucciones escritas, sigue los pasos a continuación:
 [^1]: en caso de no tener instalado pip --> `sudo apt install python3-pip`.
 
 > [!WARNING]
-> Esta instalación no es trivial y pueden surgir problemas en el camino. Si tienes alguno, por favor contacta conmigo por correo o teléfono: 
+> Esta instalación no es trivial y pueden surgir problemas en el camino. Si tienes alguno, por favor contacta con nosotros por correo o teléfono: 
 > - c.nebril.2020@alumnos.urjc.es
 > - 654631207
 
