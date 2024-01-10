@@ -55,13 +55,15 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 7. **Paso 7:** Ejecución del programa.
 
+- Desarrollado en Ubuntu usando python3.10 & python3.12 como interprete, para ejecutar:
+
    ```bash
     python3 .\main.py 
     ```
-- En caso de tener instalado multiples interpretes de python, si se quiere especificar la versión que se quiere usar hacerlo de la siguiente manera (ejemplo con versión 3.12):
+- En caso de tener instalado multiples interpretes de python, si se quiere especificar la versión que se quiere usar hacerlo de la siguiente manera (ejemplo con versión 3.10):
   
    ```bash
-    python3.12 .\main.py 
+    python3.10 .\main.py 
     ```
 
 [^1]: en caso de no tener instalado pip --> `sudo apt install python3-pip`.
@@ -105,7 +107,7 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 7. **Paso 7:** Ejecución del programa.
    
-- Desarrollado en Windows usando python3.12 como interprete
+- Desarrollado en Windows usando python3.12 como interprete, para ejecutar:
 
    ```bash
     python3 .\main.py 
