@@ -56,7 +56,7 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 7. **Paso 7:** Ejecución del programa.
 
    ```bash
-    python .\main.py 
+    python3 .\main.py 
     ```
 
 [^1]: en caso de no tener instalado pip --> `sudo apt install python3-pip`.
@@ -103,7 +103,13 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 - Desarrollado en Windows usando python3.12 como interprete
 
    ```bash
-    python .\main.py 
+    python3 .\main.py 
+    ```
+   
+- En caso de tener instalado multiples interpretes de python, si se quiere especificar la versión que se quiere usar hacerlo de la siguiente manera (ejemplo con versión 3.12):
+  
+   ```bash
+    python3.12 .\main.py 
     ```
 
 ### ¡Pruebalo tu mismo! (Mac)
