@@ -55,7 +55,7 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 7. **Paso 7:** Ejecución del programa.
 
-- Desarrollado en Ubuntu usando python3.10 & python3.12 como interprete, para ejecutar:
+- Probado en Ubuntu usando python3.10 & python3.12 como interprete, para ejecutar:
 
    ```bash
     python3 .\main.py 
@@ -107,7 +107,7 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 7. **Paso 7:** Ejecución del programa.
    
-- Desarrollado en Windows usando python3.12 como interprete, para ejecutar:
+- Probado en Windows usando python3.10, python3.11 & python3.12 como interprete, para ejecutar:
 
    ```bash
     python3 .\main.py 
