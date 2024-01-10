@@ -13,6 +13,9 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 ### ¡Pruebalo tu mismo! (Ubuntu)
 
+> [!WARNING]
+> Este programa no funciona en los ordenadores VNC proporcionados por la universidad, ya que no deja instalar todas las librerias necesárias
+
 1. **Paso 1:** Clona el repositorio en tu máquina local.
 
     ```bash
