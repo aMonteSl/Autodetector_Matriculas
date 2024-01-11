@@ -203,24 +203,21 @@ Vamos a ir siguiendo los pasos de la [metodología](https://github.com/aMonteSl
 
 ### 1. Segmentación de matrículas
 
-- Imagen original:
+#### Imagen original:
 
 ![](Images/1_Coche.jpg)
 
-- Placa detectada:
+#### Placa detectada:
 
 ![](Images/1_Coche_detectada.png)
-![](Images/1_Coche_detectada2.png)
 
 ### 2. Reconocimiento de texto
 
-- Placa aislada: 
+#### Placa aislada: 
 
 ![](Images/plate1.jpg)
 
-Aplicamos el modelo entrenado **pytesseract**:
-
-- `license_plates_text.txt`:
+#### Aplicamos el modelo entrenado **pytesseract** y se almacena el resultado en `license_plates_text.txt`:
 
 ```Image Path: plate1.jpg, Plate Text: B2228HM```
 
