@@ -221,7 +221,7 @@ Aplicamos el modelo entrenado **pytesseract**:
 
 - `license_plates_text.txt`
 
-    Image Path: plate1.jpg, Plate Text: B2228HM
+    `Image Path: plate1.jpg, Plate Text: B2228HM`
 
 ### DEMO 
 
