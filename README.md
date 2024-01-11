@@ -118,6 +118,36 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 ## 3. Metodología 🛠️
 
+Para tener una idea general, el proyecto sigue esta estructura de directorios:
+
+```
+Autodetector_Matriculas/
+├── CarImages/
+│   ├── 1_Coche.jpg
+│   ├── 2_Coche.jpg
+│   ├── ...
+│   └── 14_Coche.jpg
+├── DetectedPlates/
+│   └── user_inputs.txt
+├── Images/
+│   ├── 1_Coche_detectada.png
+│   ├── 1_Coche.jpg
+│   ├── plate1.jpg
+│   ├── tesseract_path.png
+│   ├── tesseract_path_windows.png
+│   └── tesseract_path_windows_put.png
+├── __pycache__/
+├── character_decider.py
+├── license_plate_detector.py
+├── license_plate_reader.log
+├── license_plate_segmenter.py
+├── main.py
+├── README.md
+└── requirements.txt
+
+```
+
+
 Este programa emplea avanzadas técnicas de procesamiento de imágenes para la detección de matrículas en una imagen. El proceso se divide en dos fases fundamentales:
 
 ### 1. Segmentación de Matrículas:
