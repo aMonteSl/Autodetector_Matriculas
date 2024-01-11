@@ -199,12 +199,33 @@ En este fichero simplemente se guardan errores que ocurran en la segunda fase, c
 
 ## 4. Resultados 📊
 
+Vamos a ir siguiendo los pasos de la [metodología](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/README.md#3-metodolog%C3%ADa-%EF%B8%8F), mostrando los resultados generados en cada fase.
 
+### 1. Segmentación de matrículas
 
-- [**Haz click aquí para ver el video demonstración**](enlace-al-video)
+- Imagen original:
 
+![](Images/1_Coche.jpg)
 
-Los resultados obtenidos durante la implementación incluyen [descripción de los resultados más relevantes o hallazgos importantes].
+- Placa detectada:
+
+![](Images/1_Coche_detectada.png)
+
+### 2. Reconocimiento de texto
+
+- Placa aislada: 
+
+![](Images/plate1.jpg)
+
+Aplicamos el modelo entrenado **pytesseract**:
+
+- `license_plates_text.txt`
+
+    Image Path: plate1.jpg, Plate Text: B2228HM
+
+### DEMO 
+
+- [**Haz click aquí para un video demonstración del proceso completo**](enlace-al-video)
 
 ## 5. Discusión 💬
 
