@@ -52,8 +52,10 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 7. **Paso 7:** Ejecución del programa.
 
+- Probado en Ubuntu usando python3.10 como interprete
+
    ```bash
-    python .\main.py 
+    python3 .\main.py 
     ```
 
 [^1]: en caso de no tener instalado pip --> `sudo apt install python3-pip`.
@@ -97,10 +99,10 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 7. **Paso 7:** Ejecución del programa.
    
-- Desarrollado en Windows usando python3.12 como interprete
+- Probado en Windows usando python3.12 como interprete
 
    ```bash
-    python .\main.py 
+    python3 .\main.py 
     ```
 
 ### ¡Pruebalo tu mismo! (Mac)
