@@ -191,7 +191,7 @@ En este fichero guardaremos la información respecto el nombre de la imagen que 
     Image Path: plate8.jpg, Plate Text: 0007LLL
 
 #### 3. [`license_plates_reader.log`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/license_plate_reader.log): 
-En este fichero simplemente se guardan errores que ocurran en la segunda fase, como por ejemplo que no se haya podido detectar texto en la imagen o errores similaresm, ejemplo:
+En este fichero simplemente se guardan errores que ocurran en la segunda fase, como por ejemplo que no se haya podido detectar texto en la imagen o errores similares, ejemplo:
 
     ERROR:root:Error while processing images: 'NoneType' object has no attribute 'group'
 
