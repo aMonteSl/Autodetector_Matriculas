@@ -9,7 +9,7 @@ class PlateSegmentation:
         Initializes the PlateSegmentation object with constants and an instance of the LicensePlateReader.
         """
         # Constants
-        self.DESIRED_HEIGHT = 1069
+        self.DESIRED_HEIGHT = 1060
         self.DESIRED_WIDTH = 1900
         self.IMAGE_DIRECTORY = 'CarImages'
         self.DETECTED_DIRECTORY = os.path.abspath('DetectedPlates')  # Absolute path for DetectedPlates
