@@ -246,7 +246,7 @@ Vamos a ir siguiendo los pasos de la [metodología](https://github.com/aMonteSl
 
 ```Image Path: plate1.jpg, Plate Text: B2228HM```
 
-### DEMO 
+### 3. Demo 
 
 - [**Haz click aquí para un video demonstración del proceso completo**](enlace-al-video)
 
