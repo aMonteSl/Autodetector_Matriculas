@@ -13,9 +13,6 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 ### ¡Pruebalo tu mismo! (Ubuntu)
 
-> [!WARNING]
-> Este programa no funciona en los ordenadores VNC proporcionados por la universidad, ya que no deja instalar todas las librerias necesárias
-
 1. **Paso 1:** Clona el repositorio en tu máquina local.
 
     ```bash
@@ -55,15 +52,8 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 7. **Paso 7:** Ejecución del programa.
 
-- Probado en Ubuntu usando python3.10 & python3.12 como interprete, para ejecutar:
-
    ```bash
-    python3 .\main.py 
-    ```
-- En caso de tener instalado multiples interpretes de python, si se quiere especificar la versión que se quiere usar hacerlo de la siguiente manera (ejemplo con versión 3.10):
-  
-   ```bash
-    python3.10 .\main.py 
+    python .\main.py 
     ```
 
 [^1]: en caso de no tener instalado pip --> `sudo apt install python3-pip`.
@@ -103,20 +93,14 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 - Abrimos en nuestro editor favorito el programa `character_decider.py`. Pegamos en la línea 17 la ruta que hemos copiado en el anterior paso. Quedaría algo así:
 
-![](Images/tesseract_path_windows_put.png)
+![](Images/tesseract_path.png)
 
 7. **Paso 7:** Ejecución del programa.
    
-- Probado en Windows usando python3.10, python3.11 & python3.12 como interprete, para ejecutar:
+- Desarrollado en Windows usando python3.12 como interprete
 
    ```bash
-    python3 .\main.py 
-    ```
-   
-- En caso de tener instalado multiples interpretes de python, si se quiere especificar la versión que se quiere usar hacerlo de la siguiente manera (ejemplo con versión 3.12):
-  
-   ```bash
-    python3.12 .\main.py 
+    python .\main.py 
     ```
 
 ### ¡Pruebalo tu mismo! (Mac)

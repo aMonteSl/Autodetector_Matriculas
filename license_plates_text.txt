@@ -1,1 +1,3 @@
 Image Path: plate1.jpg, Plate Text: B2228HM
+Image Path: plate8.jpg, Plate Text: 40007LLL
+Image Path: plate9.jpg, Plate Text: 12306LJF

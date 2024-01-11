@@ -1,1 +1,3 @@
-User choice: 1, Selected image: 1_Coche.jpg. Path: /home/carlosnj/Github/Autodetector_Matriculas/DetectedPlates/plate1.jpg
+User choice: 1, Selected image: 1_Coche.jpg. Path: /home/kakoke1/Escritorio/Autodetector_Matriculas/DetectedPlates/plate1.jpg
+User choice: 8, Selected image: 8_Coche.jpg. Path: /home/kakoke1/Escritorio/Autodetector_Matriculas/DetectedPlates/plate8.jpg
+User choice: 9, Selected image: 9_Coche.jpg. Path: /home/kakoke1/Escritorio/Autodetector_Matriculas/DetectedPlates/plate9.jpg
