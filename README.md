@@ -219,9 +219,9 @@ Vamos a ir siguiendo los pasos de la [metodología](https://github.com/aMonteSl
 
 Aplicamos el modelo entrenado **pytesseract**:
 
-- `license_plates_text.txt`
+- `license_plates_text.txt`:
 
-    `Image Path: plate1.jpg, Plate Text: B2228HM`
+      Image Path: plate1.jpg, Plate Text: B2228HM
 
 ### DEMO 
 
