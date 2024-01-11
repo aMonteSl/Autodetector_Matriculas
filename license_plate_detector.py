@@ -179,14 +179,13 @@ class LicensePlateReader:
         """
         return cv2.drawContours(img.copy(), contours, -1, (0, 255, 0), 2)
 
-    def read_license(self, img, psm=7):
+    def read_license(self, img):
         """
         Main method for reading the license plate. Processes the image, detects contours, filters candidates,
         and returns the final processed image.
 
         Args:
             img (numpy.ndarray): Input image.
-            psm (int): Page segmentation mode for Tesseract OCR.
 
         Returns:
             numpy.ndarray or str: Processed image or an error message if no license plate is found.
