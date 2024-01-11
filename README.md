@@ -210,6 +210,7 @@ Vamos a ir siguiendo los pasos de la [metodología](https://github.com/aMonteSl
 - Placa detectada:
 
 ![](Images/1_Coche_detectada.png)
+![](Images/1_Coche_detectada2.png)
 
 ### 2. Reconocimiento de texto
 
@@ -221,7 +222,7 @@ Aplicamos el modelo entrenado **pytesseract**:
 
 - `license_plates_text.txt`:
 
-      Image Path: plate1.jpg, Plate Text: B2228HM
+```Image Path: plate1.jpg, Plate Text: B2228HM```
 
 ### DEMO 
 
