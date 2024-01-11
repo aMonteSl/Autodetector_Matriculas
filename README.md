@@ -48,7 +48,7 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 - Abrimos en nuestro editor favorito el programa `character_decider.py`. Pegamos en la línea 17 la salida del comando anterior. Quedaría algo así:
 
-![](Images/tesseract_path.png)
+![](Github_Images/tesseract_path.png)
 
 7. **Paso 7:** Ejecución del programa.
 
@@ -89,13 +89,13 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 5. **Paso 5:** Copiamos la ruta de instalacion de pytesseract.
 
-![](Images/tesseract_path_windows.png)
+![](Github_Images/tesseract_path_windows.png)
 
 6. **Paso 6:** Configuramos el programa.
 
 - Abrimos en nuestro editor favorito el programa `character_decider.py`. Pegamos en la línea 17 la ruta que hemos copiado en el anterior paso. Quedaría algo así:
 
-![](Images/tesseract_path.png)
+![](Github_Images/tesseract_path.png)
 
 7. **Paso 7:** Ejecución del programa.
    
@@ -122,28 +122,23 @@ Para tener una idea general, el proyecto sigue esta estructura de directorios:
 
 ```
 Autodetector_Matriculas/
-├── CarImages/
+├── CarGithub_Images/
 │   ├── 1_Coche.jpg
 │   ├── 2_Coche.jpg
 │   ├── ...
 │   └── 14_Coche.jpg
-├── DetectedPlates/
+├── DetectedPlates
 │   └── user_inputs.txt
-├── Images/
-│   ├── 1_Coche_detectada.png
-│   ├── 1_Coche.jpg
-│   ├── plate1.jpg
-│   ├── tesseract_path.png
-│   ├── tesseract_path_windows.png
-│   └── tesseract_path_windows_put.png
-├── __pycache__/
+├── Github_Images
+│   └── ...
 ├── character_decider.py
 ├── license_plate_detector.py
 ├── license_plate_reader.log
 ├── license_plate_segmenter.py
 ├── main.py
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── license_plates_text.txt
 
 ```
 
@@ -184,7 +179,7 @@ El script PlateSegmentation realiza la segmentación de placas de matrícula en 
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | __init__                  | Inicializa el objeto PlateSegmentation con constantes y una **instancia** de LicensePlateReader. Borra y crea un directorio para almacenar las placas detectadas.                                              |
 | clear_terminal            | **Limpia** la pantalla del terminal.                                                                                                                                                                           |
-| load_images               | Carga y muestra imágenes disponibles para procesamiento, **solicitando** al usuario que haga una selección. Retorna el número de la selección y el nombre del archivo de imagen seleccionado.                  |
+| load_Github_Images               | Carga y muestra imágenes disponibles para procesamiento, **solicitando** al usuario que haga una selección. Retorna el número de la selección y el nombre del archivo de imagen seleccionado.                  |
 | process_image             | **Procesa** la imagen seleccionada, muestra el resultado y guarda la imagen procesada.                                                                                                                         |
 | display_and_save_result   | **Muestra** la imagen procesada, la guarda y registra las entradas del usuario.                                                                                                                                |
 | segmentation_of_the_plate | **Método principal** para la **segmentación** de placas. Carga imágenes, procesa cada imagen y permite al usuario continuar o salir.                                                                           |
@@ -225,7 +220,7 @@ En este fichero guardaremos la información respecto el nombre de la imagen que 
 #### 3. [`license_plates_reader.log`](https://github.com/aMonteSl/Autodetector_Matriculas/blob/main/license_plate_reader.log): 
 En este fichero simplemente se guardan errores que ocurran en la segunda fase, como por ejemplo que no se haya podido detectar texto en la imagen o errores similares, ejemplo:
 
-    ERROR:root:Error while processing images: 'NoneType' object has no attribute 'group'
+    ERROR:root:Error while processing Github_Images: 'NoneType' object has no attribute 'group'
 
 ## 4. Resultados 📊
 
@@ -235,17 +230,17 @@ Vamos a ir siguiendo los pasos de la [metodología](https://github.com/aMonteSl
 
 #### Imagen original:
 
-![](Images/1_Coche.jpg)
+![](Github_Images/1_Coche.jpg)
 
 #### Placa detectada:
 
-![](Images/1_Coche_detectada.png)
+![](Github_Images/1_Coche_detectada.png)
 
 ### 2. Reconocimiento de texto
 
 #### Placa aislada: 
 
-![](Images/plate1.jpg)
+![](Github_Images/plate1.jpg)
 
 #### Aplicamos el modelo entrenado **pytesseract** y se almacena el resultado en `license_plates_text.txt`:
 
