@@ -289,7 +289,7 @@ En resumen, el Autodetector de Matrículas proporciona una solución efectiva, s
 
 ### Video de conclusión
 
-[**Haz click aquí para un video en el que sacamos CONCLUSIONES del proyecto.**](enlace-al-video)
+- [**Haz click aquí para un video en el que sacamos CONCLUSIONES del proyecto.**](enlace-al-video)
 
 ## 7. Referencias 📜
 
