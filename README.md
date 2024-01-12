@@ -287,7 +287,9 @@ El proyecto del Autodetector de Matrículas logra una eficiente detección y rec
 
 En resumen, el Autodetector de Matrículas proporciona una solución efectiva, sentando las bases para aplicaciones más amplias en visión por computadora y procesamiento de imágenes.
 
-- [**Haz click aquí para un video en el que sacamos CONCLUSIONES del proyecto.**](enlace-al-video)
+### Video de conclusión
+
+[**Haz click aquí para un video en el que sacamos CONCLUSIONES del proyecto.**](enlace-al-video)
 
 ## 7. Referencias 📜
 
