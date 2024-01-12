@@ -256,21 +256,40 @@ Hemos realizado un total de dos videos explicando los resultados obtenidos en la
 
 ### 1. Segmentación de matrículas
 
-- [**Haz click aquí para un video en el que discutimos los resultados sobre la SEGMENTACIÓN de matrículas**](enlace-al-video)
+- [**Haz click aquí para un video en el que discutimos los resultados sobre la SEGMENTACIÓN de matrículas.**](enlace-al-video)
 
 ### 2. Reconocimiento de texto
 
-- [**Haz click aquí para un video en el que discutimos los resultados sobre el RECONOCIMIENTO de texto**](enlace-al-video)
+- [**Haz click aquí para un video en el que discutimos los resultados sobre el RECONOCIMIENTO de texto.**](enlace-al-video)
 
 ## 6. Conclusión 🎯
 
-En conclusión, [resumen de las conclusiones principales]. Se destaca la importancia de los hallazgos y se mencionan posibles direcciones futuras para la investigación o aplicaciones.
+- [**Haz click aquí para un video en el que sacamos CONCLUSIONES del proyecto.**](enlace-al-video)
 
 ## 7. Referencias 📜
 
-Se proporciona un listado de las fuentes bibliográficas, recursos y documentos consultados durante el desarrollo del proyecto.
+Listado de repositorios de github y videos consultados durante el desarrollo del proyecto:
+### Videos
 
----
+- **Título**: DETECCION Y RECONOCIMIENTO DE PLACAS EN TIEMPO REAL | Python OpenCV  
+  **Enlace**: [https://youtu.be/0-tVTxBRgbY?si=BKN7H-yro2zl8Qvu]  
+
+- **Título**: 🚘 Reconocimiento de placas vehiculares | OpenCV OCR en Python  
+  **Enlace**: [https://youtu.be/8rg_qi8mjjk?si=5xAsG6Wy3flwNNfD]  
+
+- **Título**: TUTORIAL DE PYTHON: RECONOCIMIENTO DE PATENTES  
+  **Enlace**: [https://youtu.be/9dyaI3GyUtc?si=SljAZcE7u3oQ9IuO]  
+
+### Repositorios
+
+- **Nombre del repositorio**: ConvALPR  
+  **Autor**: JaviFS97  
+  **Enlace**: [https://github.com/ankandrew/ConvALPR]  
+
+- **Nombre del repositorio**: TFG  
+  **Autor**: ankandrew  
+  **Enlace**: [https://github.com/JaviFS97/TFG]
+
 
 ¡Gracias por visitar nuestro repositorio! Esperamos que encuentres este proyecto interesante y útil. 👩‍💻👨‍💻
 
