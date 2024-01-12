@@ -264,6 +264,29 @@ Hemos realizado un total de dos videos explicando los resultados obtenidos en la
 
 ## 6. Conclusión 🎯
 
+El proyecto del Autodetector de Matrículas logra una eficiente detección y reconocimiento de matrículas en imágenes de vehículos a través de técnicas avanzadas de procesamiento de imágenes y el uso de Tesseract OCR.
+
+### Segmentación de Matrículas
+
+    Los scripts license_plate_detector.py y license_plate_segmenter.py demuestran una sólida capacidad para identificar y extraer con precisión regiones de matrículas en imágenes.
+    Técnicas como la conversión a escala de grises, umbralización y detección de contornos, junto con operaciones morfológicas, contribuyen a una segmentación precisa.
+
+### Reconocimiento de Texto
+
+    El script character_decider.py, basado en Tesseract OCR, exhibe una efectiva extracción de texto de las matrículas segmentadas.
+    La adaptabilidad del sistema para manejar diferentes formatos de texto en las matrículas añade versatilidad al reconocimiento.
+
+### Interacción del Usuario y Registros
+
+    Los registros, como user_inputs.txt y license_plates_text.txt, ofrecen visibilidad sobre el proceso interno del programa.
+    Los registros de errores en license_plates_reader.log son cruciales para diagnosticar posibles problemas durante la ejecución.
+
+### Consideraciones Futuras
+
+    Aunque el proyecto cumple con los objetivos, hay oportunidades de mejora, como la optimización de algoritmos y la exploración de técnicas de aprendizaje profundo.
+
+En resumen, el Autodetector de Matrículas proporciona una solución efectiva, sentando las bases para aplicaciones más amplias en visión por computadora y procesamiento de imágenes.
+
 - [**Haz click aquí para un video en el que sacamos CONCLUSIONES del proyecto.**](enlace-al-video)
 
 ## 7. Referencias 📜
