@@ -248,7 +248,7 @@ Vamos a ir siguiendo los pasos de la [metodología](https://github.com/aMonteSl
 
 ### 3. Demo 
 
-- [**Haz click aquí para un video demonstración del proceso completo**](enlace-al-video)
+- [**Haz click aquí para un video demonstración del proceso completo**](https://youtu.be/2Fk_CnAC_kc)
 
 ## 5. Discusión 💬
 
@@ -256,11 +256,11 @@ Hemos realizado un total de dos videos explicando los resultados obtenidos en la
 
 ### 1. Segmentación de matrículas
 
-- [**Haz click aquí para un video en el que discutimos los resultados sobre la SEGMENTACIÓN de matrículas.**](enlace-al-video)
+- [**Haz click aquí para un video en el que discutimos los resultados sobre la SEGMENTACIÓN de matrículas.**](https://youtu.be/qXGIz_fIJnM)
 
 ### 2. Reconocimiento de texto
 
-- [**Haz click aquí para un video en el que discutimos los resultados sobre el RECONOCIMIENTO de texto.**](enlace-al-video)
+- [**Haz click aquí para un video en el que discutimos los resultados sobre el RECONOCIMIENTO de texto.**](https://youtu.be/qXGIz_fIJnM)
 
 ## 6. Conclusión 🎯
 
@@ -289,7 +289,7 @@ En resumen, el Autodetector de Matrículas proporciona una solución efectiva, s
 
 ### Video de conclusión
 
-- [**Haz click aquí para un video en el que sacamos CONCLUSIONES del proyecto.**](enlace-al-video)
+- [**Haz click aquí para un video en el que sacamos CONCLUSIONES del proyecto.**](https://youtu.be/qXGIz_fIJnM)
 
 ## 7. Referencias 📜
 
