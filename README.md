@@ -252,7 +252,15 @@ Vamos a ir siguiendo los pasos de la [metodología](https://github.com/aMonteSl
 
 ## 5. Discusión 💬
 
-- [**Haz click aquí para un video en el que discutimos los resultados**](enlace-al-video)
+Hemos realizado un total de dos videos explicando los resultados obtenidos en la aplicación en las dos fases comentadas previamente.
+
+### 1. Segmentación de matrículas
+
+- [**Haz click aquí para un video en el que discutimos los resultados sobre la SEGMENTACIÓN de matrículas**](enlace-al-video)
+
+### 2. Reconocimiento de texto
+
+- [**Haz click aquí para un video en el que discutimos los resultados sobre el RECONOCIMIENTO de texto**](enlace-al-video)
 
 ## 6. Conclusión 🎯
 
