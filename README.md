@@ -252,7 +252,7 @@ Vamos a ir siguiendo los pasos de la [metodología](https://github.com/aMonteSl
 
 ## 5. Discusión 💬
 
-Se discuten los resultados obtenidos en relación con [estándares, trabajos previos, etc.]. Además, se analizan posibles limitaciones, áreas de mejora y aspectos relevantes.
+- [**Haz click aquí para un video en el que discutimos los resultados**](enlace-al-video)
 
 ## 6. Conclusión 🎯
 
