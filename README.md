@@ -290,6 +290,9 @@ Listado de repositorios de github y videos consultados durante el desarrollo del
   **Autor**: ankandrew  
   **Enlace**: [https://github.com/JaviFS97/TFG]
 
+### Otros Recursos:
+
+- **ChatGPT** - [https://chat.openai.com/]
 
 ¡Gracias por visitar nuestro repositorio! Esperamos que encuentres este proyecto interesante y útil. 👩‍💻👨‍💻
 
