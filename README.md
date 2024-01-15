@@ -95,7 +95,7 @@ Para la resolución del problema se han puesto en práctica los conceptos vist
 
 - Abrimos en nuestro editor favorito el programa `character_decider.py`. Pegamos en la línea 17 la ruta que hemos copiado en el anterior paso. Quedaría algo así:
 
-![](Github_Images/tesseract_path.png)
+![](Github_Images/tesseract_path_windows_put.png)
 
 7. **Paso 7:** Ejecución del programa.
    
